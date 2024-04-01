@@ -5,7 +5,7 @@ public class TCPServer {
     public static void main(String[] args) {
         try {
             // Creamos el socket del servidor
-            ServerSocket serverSocket = new ServerSocket(12345);
+            ServerSocket serverSocket = new ServerSocket(9000);
 
             System.out.println("Esperando conexiones entrantes...");
 

@@ -5,7 +5,7 @@ public class TCPClient {
     public static void main(String[] args) {
         ServerSocket serverSocket = null;
         try {
-            serverSocket = new ServerSocket(12345);
+            serverSocket = new ServerSocket(9000);
             System.out.println("Esperando conexiones entrantes...");
 
             while (true) {
